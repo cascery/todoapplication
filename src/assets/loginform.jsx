@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -34,7 +35,7 @@ export const Loginform = () => {
   return (
     <div className='TodoWrapper-login'>
       <h3>
-        {/* ... Your SVG and title */}
+       
       </h3>
       <form onSubmit={handleFormSubmit}>
         <h2>Email:</h2>
@@ -51,9 +52,7 @@ export const Loginform = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button className='todo-btn-login' type="submit">
-          Login
-        </button>
+        <button className='todo-btn-login' type="submit">Login</button>
       </form>
     </div>
   );
